@@ -1,6 +1,20 @@
 <section>
     <!-- ======= Sidebar ======= -->
-<aside id="sidebar" class="sidebar">
+    <aside class="sidebar-area">
+      <div class="sidebar-content">
+        <nav class="sidebar-nav">
+          <ul>
+            <li><a href="{{ url('/user/profile') }}"><i class="fa fa-user"></i> Profile</a></li>
+            <li><a href="{{ url('/user/projects') }}"><i class="fa fa-briefcase"></i> Projects</a></li>
+            <li><a href="{{ url('/user/messages') }}"><i class="fa fa-envelope"></i> Messages</a></li>
+            <li><a href="{{ url('/user/settings') }}"><i class="fa fa-cog"></i> Settings</a></li>
+            <li><a href="{{ url('/user/logout') }}"><i class="fa fa-sign-out"></i> Logout</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+    
+{{-- <aside id="sidebar" class="sidebar">
 
   <ul class="sidebar-nav" id="sidebar-nav">
 
@@ -234,5 +248,5 @@
 
   </ul>
 
-</aside><!-- End Sidebar-->
+</aside><!-- End Sidebar--> --}}
 </section>
