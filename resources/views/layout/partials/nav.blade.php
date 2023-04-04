@@ -1,4 +1,4 @@
-<div class="collapse bg-inverse" id="navbarHeader">
+{{-- <div class="collapse bg-inverse" id="navbarHeader">
     <div class="container">
         <div class="row">
             <div class="col-sm-8 py-4">
@@ -24,4 +24,4 @@
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
-</div>
+</div> --}}
