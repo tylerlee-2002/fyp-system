@@ -18,6 +18,10 @@ Route::get('/', function () {
 });
 
 
+Route::get('/', function () {
+    return view('page-login');
+});
+
 // Route::get('/demo', function () {
 //    return view('demo');
 // });
