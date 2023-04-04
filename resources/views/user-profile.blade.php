@@ -1,3 +1,5 @@
+@extends('layout.app')
+
 <main id="main" class="main">
 
     <div class="pagetitle">

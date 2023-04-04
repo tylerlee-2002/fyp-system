@@ -23,8 +23,8 @@ Route::get('/welcome', function () {
 // });
 
 Route::get('/', function () {
-    return view('user-login');
-})->name('login');
+    return view('user-profile');
+})->name('profile');
 
 // Route::get('/demo', function () {
 //    return view('demo');
